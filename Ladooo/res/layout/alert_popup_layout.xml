@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/obino_ID_ObiNoAlert_Container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFffffff"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/obino_ID_ObiNoAlert_TitleContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal" >
+        <TextView 
+            android:id="@+id/text"
+            android:text="heena middha"/>
+
+        <ImageView
+            android:id="@+id/obino_ID_ObiNoAlert_TitleIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            tools:ignore="ContentDescription" />
+
+         
+    </LinearLayout>
+
+   <!--  <View
+        android:id="@+id/obino_ID_ObiNoAlert_TitleSeperator"
+        android:layout_width="match_parent"
+        android:layout_height="1.0dip"
+        android:background="@color/default_divider" /> -->
+
+    <ScrollView
+        android:id="@+id/obino_ID_ObiNoAlert_MessageContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >        
+                
+    </ScrollView>
+
+   <!--  <View
+        android:id="@+id/obino_ID_Button_upper_Seperator"
+        android:layout_width="match_parent"
+        android:layout_height="1.0dip"
+        android:background="@color/default_divider" /> -->
+
+    <LinearLayout
+        android:id="@+id/obino_ID_ObiNoAlert_ButtonContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+         <!-- <com.mogae.ui.util.CustomTextView
+            xmlns:dca="http://schemas.android.com/apk/res/com.mogae.dailybytes"
+            android:id="@+id/obino_ID_ObiNoAlert_NegativeButton"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:clickable="true"
+            android:gravity="center"
+            android:paddingLeft="3.0dip"
+            android:text="OK"
+            android:textColor="@color/default_green"
+            dca:fontAssetName="Roboto-Thin.ttf"
+            tools:ignore="HardcodedText" />  -->
+
+      <!--   <View
+            android:id="@+id/obino_ID_ObiNoAlert_ButtonSeparator"
+            android:layout_width="1dip"
+            android:layout_height="match_parent"
+            android:background="@color/default_divider" /> -->
+
+       <!--   <com.mogae.ui.util.CustomTextView
+            xmlns:dca="http://schemas.android.com/apk/res/com.mogae.dailybytes"
+            android:id="@+id/obino_ID_ObiNoAlert_PositiveButton"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:clickable="true"
+            android:gravity="center"
+            android:paddingLeft="3.0dip"
+            android:text="Cancel"
+            android:textColor="@color/default_green"
+            dca:fontAssetName="Roboto-Thin.ttf"
+            tools:ignore="HardcodedText" />  -->
+    </LinearLayout>
+
+</LinearLayout>

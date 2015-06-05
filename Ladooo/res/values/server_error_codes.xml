@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- SERVER PROCESSING ERROR CODE -->
+
+    <string name="obino_ErrorCode_MSG__6500">Sorry! Server encountered problem while processing your request.\nPlease try again sometime later.</string>
+
+    <!-- SUBSCRIPTIONS RELATED ERROR CODE BEGINS -->
+
+    <string name="obino_ErrorCode_MSG__6200">You have not provided one of the required information.</string>
+    <string name="obino_ErrorCode_MSG__6201">Subscription does not exists.</string>
+    <string name="obino_ErrorCode_MSG__6202">Your subscription is already Deactivated.</string>
+    <string name="obino_ErrorCode_MSG__6203">Your subscription is already Paused.</string>
+    <string name="obino_ErrorCode_MSG__6204">Your subscription is Expired.</string>
+    <string name="obino_ErrorCode_MSG__6205">Your subscription is already Restarted.</string>
+    <string name="obino_ErrorCode_MSG__6206">You have already subscribed this Diet plan.\nWe are preparing your diet chart, it will take few minutes.\nWe are sorry for your inconvinience.</string>
+    <string name="obino_ErrorCode_MSG__6207">Diet plan does not exists</string>
+    <string name="obino_ErrorCode_MSG__6208">Subscription Plan does not exists.</string>
+    <string name="obino_ErrorCode_MSG__6209">Sorry! we could not process your request because, Payment was not successful.</string>
+    <string name="obino_ErrorCode_MSG__6210">Sorry! Subscription failed due to invalid information provided by you.</string>
+    <string name="obino_ErrorCode_MSG__6211">You have already consumed your Free Subscription.\nPlease try with Paid Subscription.</string>
+    <string name="obino_ErrorCode_MSG__6212">We are preparing your diet chart, it will take few minutes.\nWe are sorry for your inconvinience.</string>
+	<string name="obino_ErrorCode_MSG__6213">Sorry! we could not process your request because, Payment was not successful.</string>
+    <!-- SUBSCRIPTIONS RELATED ERROR CODE ENDS -->
+
+
+    <!-- PROFILE RELATED ERROR CODE BEGINS -->
+
+    <string name="obino_ErrorCode_MSG__6101">EmailId does not exists in our database.\nPlease check if you have entered valid Email.</string>
+    <string name="obino_ErrorCode_MSG__6102">Your account has been blocked.\nPlease contact ObiNo helpdesk.</string>
+
+    <!-- PROFILE RELATED ERROR CODE BEGINS -->
+
+
+    <!-- MISC ERROR CODE BEGINS -->
+    <string name="obino_ErrorCode_MSG__6701">Your account has been suspended from sending any feedback.</string>
+    <string name="obino_ErrorCode_MSG__6702">You need to write something in your feedback.</string>
+
+    <!-- MISC ERROR CODE ENDS -->
+
+</resources>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/item"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+
+    <ImageView
+        android:id="@+id/imgUrl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:fitsSystemWindows="true"
+        android:scaleType="fitXY"
+         />
+
+    <!-- Title Of Song -->
+
+    <TextView
+        android:id="@+id/txtTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:paddingLeft="10dp"
+        android:textColor="#ffffff"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/txtTitle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtTime"
+        android:layout_marginTop="1dip"
+        android:paddingLeft="10dp"
+        android:paddingRight="20dp"
+        android:textColor="#ffffff"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    
+
+</RelativeLayout><!--
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@android:color/black" >
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="57dp"
+        android:layout_height="57dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="8dip"
+        android:src="@drawable/ic_launcher" />
+
+    <TextView
+        android:id="@+id/heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_toRightOf="@id/imageView"
+        android:singleLine="true"
+        android:textSize="14sp"
+        android:textStyle="bold" 
+        android:text="Heading"/>
+
+    <TextView
+        android:id="@+id/content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/heading"
+        android:layout_marginTop="5dip"
+        android:layout_toRightOf="@id/imageView"
+        android:textSize="14sp" 
+        android:text="Content"/>
+
+</RelativeLayout>
+-->
+
